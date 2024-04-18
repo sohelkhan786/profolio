@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a:hover,
+a {
+  text-decoration: none;
+}
+:root {
+  --primary-ora: #ff6300;
+  --secondary-black: #000000;
+  --secondary-black-6: rgba(0, 0, 0, 0.6);
+  --white: #ffffff;
+  --card-bg: #ffefe6;
+  --header-bg: #d9d9da;
+}
+.header-bg {
+  background-color: var(--header-bg);
+}
+.Playfair,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+.btn-fill {
+  background-color: var(--primary-ora) !important;
+  border-color: var(--primary-ora) !important;
+  color: var(--white) !important;
+}
+.btn-fill:hover {
+  background-color: transparent !important;
+  border-color: var(--white) !important;
+  color: var(--white) !important;
+}
+.btn-fill-2:hover {
+  color: var(--secondary-black) !important;
+  border-color: var(--secondary-black) !important;
+  background-color: var(--white) !important;
+}
+.navigation {
+  color: var(--secondary-black);
+  border-bottom: 2px solid transparent;
+  transition: all 0.6s ease-in-out;
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--primary-ora) !important;
+  border-bottom-color: var(--primary-ora);
+}
+.border-bottom {
+  border-bottom: 1px solid #f8f8f8;
+}
+.h1-heading {
+  color: var(--primary-ora);
+  font-size: 50px;
+}
+.h2-heading {
+  color: var(--primary-ora);
+  font-size: 40px;
+}
+.main-para {
+  color: var(--secondary-black-6);
+}
+.cust-btn {
+  padding: 10px 30px;
+}
+.hero-section {
+  background-image: url("/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero-section-2 {
+  background-image: url("/images/second-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.h3-heading {
+  font-size: 35px;
+  color: var(--primary-ora);
+}
+.card-bg {
+  background: var(--white);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+}
+.card-bg:hover {
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--card-bg);
+}
+.tabs li a {
+  padding: 10px 30px !important;
+  color: var(--secondary-black) !important;
+  font-size: 18px !important;
+  margin: 0 10px;
+}
+body {
+  background-color: #fffbf9;
+}
