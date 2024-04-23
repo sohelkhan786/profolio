@@ -48,10 +48,15 @@ h6 {
   border-color: var(--secondary-black) !important;
   background-color: var(--white) !important;
 }
+footer ul li a:hover svg path {
+  fill: var(--primary-ora) !important;
+  transition: all 0.3s ease-in-out !important;
+}
 footer ul li a:hover {
   color: var(--primary-ora) !important;
   transition: all 0.3s ease-in-out !important;
 }
+
 .navigation {
   color: var(--secondary-black);
   border-bottom: 2px solid transparent;
